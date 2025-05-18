@@ -5,7 +5,7 @@ import json
 from random import randint
 import sqlite3
 
-TOKEN = "7902405831:AAE1TIgtSRpxyQy1OWRf3S7yljIyPx2ySBU"
+TOKEN = "TOKEN"
 URL = f"https://api.telegram.org/bot{TOKEN}/"
 on_bot = True
 CONNECT = sqlite3.connect('.\stats.db')
